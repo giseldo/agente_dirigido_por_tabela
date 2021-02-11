@@ -8,9 +8,9 @@ PSEUDO-CÓDIGO
 
 ```
 função AGENTE-DIRIGIDO-POR-TABELA(percepção) retorna uma ação
-  variáveis estáticas: percepções, uma sequência, inicialmente vazia
-  tabela, uma tabela de ações, indexada por sequências de percepções,
-  inicialmente completamente especificada
+  variáveis estáticas: 
+    percepções, uma sequência, inicialmente vazia
+    tabela, uma tabela de ações, indexada por sequências de percepções, inicialmente completamente especificada
   anexar percepção ao fim de percepções
   ação ← ACESSAR(percepções, tabela)
   retornar ação
