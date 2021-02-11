@@ -4,6 +4,8 @@
 Esse programa demonstra um agente bastante trivial que acompanha a sequência de percepções e depois a utiliza para realizar a indexação em uma tabela de
 ações, a fim de decidir o que fazer. A tabela representa explicitamente a função do agente que o programa do agente incorpora. Para construir um agente racional desse modo, devemos construir uma tabela que contenha a ação apropriada para todas as sequências de percepções possíveis.
 
+Esse mundo é tão simples que podemos descrever tudo o que acontece; ele também é um mundo inventado e, portanto, podemos criar muitas variações. Esse mundo particular tem apenas dois locais: os quadrados A e B. O agente aspirador de pó percebe em que quadrado está e se existe sujeira no quadrado. Ele pode optar por mover-se para a esquerda, mover-se para a direita, aspirar a sujeira ou não fazer nada. 
+
 PSEUDO-CÓDIGO
 
 ```
