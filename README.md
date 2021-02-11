@@ -16,18 +16,15 @@ função AGENTE-DIRIGIDO-POR-TABELA(percepção) retorna uma ação
 Segue o trecho do arquivo Agente.py equivalente ao pseudo código acima.
 
 ```
-    posicao = EnumPos.A.value
     percepcoes = [] # uma sequencia, inicialmente vazia
     tabela = {
     "['A, Limpo']":"Direita"
     ,"['A, Sujo']":"Aspirar"
     ,"['B, Limpo']":"Esquerda"
     ,"['B, Sujo']":"Aspirar"
-    
     ,"['A, Limpo', 'B, Sujo']":"Aspirar"
     ,"['A, Limpo', 'B, Limpo']":"Esquerda"
     ,"['A, Sujo', 'A, Limpo']": "Direita"
-    
     ,"['A, Limpo', 'B, Limpo', 'A, Limpo']":"Direita"
     ,"['A, Sujo', 'A, Limpo', 'B, Sujo']":"Aspirar"
     
