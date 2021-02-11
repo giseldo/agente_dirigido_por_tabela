@@ -21,7 +21,7 @@ Segue o trecho do arquivo Agente.py equivalente ao pseudo código acima.
 ```
 percepcoes = [] # uma sequencia, inicialmente vazia
 tabela = {
-"['A, Limpo']":"Direita"
+ "['A, Limpo']":"Direita"
 ,"['A, Sujo']":"Aspirar"
 ,"['B, Limpo']":"Esquerda"
 ,"['B, Sujo']":"Aspirar"
