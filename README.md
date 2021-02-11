@@ -44,4 +44,9 @@ def ACESSAR(self, percepcoes, tabela):
     return self.tabela[str(self.percepcoes)]
         
 ```
-        
+
+Para executar
+
+```
+python Principal.py
+```
