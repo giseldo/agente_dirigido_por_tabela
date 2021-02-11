@@ -52,3 +52,6 @@ Para executar
 ```
 python Principal.py
 ```
+
+Este arquivo pode ser facilmente executado com a IDE na nuvem https://repl.it
+Basta selecionar a opção Run no Repl.it
